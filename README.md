@@ -1,1 +1,10 @@
 # mapa_conceitual
+O mapa conceitual desenvolvido apresenta de forma visual e organizada os principais protocolos de comunicação utilizados na internet. A ideia principal foi mostrar como esses protocolos se relacionam entre si e como cada um tem um papel específico dentro da comunicação de dados.
+No centro do mapa está o conceito de “Comunicação na Internet”, que representa toda a troca de informações que acontece entre dispositivos conectados em rede. A partir desse ponto central, foram organizados os principais protocolos estudados: HTTP/HTTPS, DNS, TCP/IP, WebSockets e FTP/SFTP.
+O protocolo TCP/IP aparece como a base de toda a comunicação, pois é ele que garante que os dados sejam enviados e recebidos corretamente entre os dispositivos. O TCP cuida da confiabilidade da transmissão, enquanto o IP é responsável pelo endereçamento dos dados.
+O HTTP/HTTPS é o protocolo utilizado para acessar páginas na web. Ele funciona por meio de requisições e respostas entre cliente e servidor. A principal diferença é que o HTTPS possui criptografia, garantindo mais segurança na comunicação.
+O DNS tem a função de traduzir nomes de sites (como google.com) em endereços IP, permitindo que o navegador encontre o servidor correto. Sem o DNS, seria necessário memorizar números IP para acessar qualquer site.
+O WebSockets é utilizado para comunicação em tempo real. Diferente do HTTP, ele mantém uma conexão aberta entre cliente e servidor, permitindo troca de dados contínua, como acontece em chats e jogos online.
+Já o FTP/SFTP é utilizado para transferência de arquivos entre computadores. O SFTP se diferencia por ser uma versão mais segura, utilizando criptografia para proteger os dados.
+As conexões entre os elementos no mapa mostram como esses protocolos trabalham juntos. Por exemplo, o HTTP utiliza o TCP/IP para funcionar, o DNS é necessário antes de acessar um site, e o WebSockets também depende do TCP para manter a conexão ativa.
+De forma geral, o mapa conceitual ajuda a entender não apenas o que cada protocolo faz, mas principalmente como eles se conectam e formam a estrutura da comunicação na internet.
